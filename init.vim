@@ -13,6 +13,7 @@ set fileformat=unix
 filetype indent on      " load filetype-specific indent files
 
 inoremap jk <esc>
+vnoremap <C-y> "+y
 
 
 call plug#begin('~/.vim/plugged')
@@ -25,6 +26,7 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
 Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-surround'
 
 " color schemas
 Plug 'morhetz/gruvbox'  " colorscheme gruvbox
